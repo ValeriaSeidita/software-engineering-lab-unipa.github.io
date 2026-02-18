@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Software Engineering Lab – UNIPA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0f172a;
+      color: white;
+      margin: 0;
+      padding: 60px;
+      text-align: center;
+    }
+    h1 { font-size: 40px; }
+    p { font-size: 18px; color: #cbd5e1; }
+  </style>
+</head>
+<body>
+  <h1>Software Engineering Lab</h1>
+  <p>Università degli Studi di Palermo</p>
+  <p>Official website coming soon.</p>
+</body>
+</html>
