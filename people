@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>People • Software Engineering Research Lab</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <strong>Software Engineering Research Lab</strong>
+        <span>Università di ... • Dipartimento di ...</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <p class="kicker">People</p>
+      <h1>Team</h1>
+      <p class="small">Inserisci persone con ruolo, interessi, link (sito, Scholar, GitHub, LinkedIn).</p>
+    </div>
+
+    <h2 class="section-title">Faculty / PI</h2>
+    <section class="grid">
+      <div class="card">
+        <h3>Nome Cognome</h3>
+        <p class="small">Ruolo • Affiliazione</p>
+        <p class="small">Interessi: ...</p>
+        <p class="small"><a href="#">Sito</a> • <a href="#">Scholar</a> • <a href="#">GitHub</a></p>
+      </div>
+    </section>
+
+    <h2 class="section-title">Researchers</h2>
+    <section class="grid">
+      <div class="card">
+        <h3>Nome Cognome</h3>
+        <p class="small">Dottorando / Assegnista / Post-doc</p>
+        <p class="small">Interessi: ...</p>
+        <p class="small"><a href="#">Scholar</a> • <a href="#">GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Nome Cognome</h3>
+        <p class="small">Dottorando / Assegnista / Post-doc</p>
+        <p class="small">Interessi: ...</p>
+        <p class="small"><a href="#">Scholar</a> • <a href="#">GitHub</a></p>
+      </div>
+      <div class="card">
+        <h3>Nome Cognome</h3>
+        <p class="small">Dottorando / Assegnista / Post-doc</p>
+        <p class="small">Interessi: ...</p>
+        <p class="small"><a href="#">Scholar</a> • <a href="#">GitHub</a></p>
+      </div>
+    </section>
+
+    <div class="footer">© <span id="y"></span> Software Engineering Research Lab</div>
+  </main>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
