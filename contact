@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact • Software Engineering Research Lab</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <strong>Software Engineering Research Lab</strong>
+        <span>Università di ... • Dipartimento di ...</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <p class="kicker">Contact</p>
+      <h1>Contatti</h1>
+      <ul class="list">
+        <li><strong>Email</strong><br/><span class="small"><a href="mailto:lab@university.it">lab@university.it</a></span></li>
+        <li><strong>Sede</strong><br/><span class="small">Dipartimento di ... • Indirizzo • Città</span></li>
+        <li><strong>Link</strong><br/>
+          <span class="small">
+            <a href="#">Sito Dipartimento</a> • <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+          </span>
+        </li>
+      </ul>
+      <p class="small" style="margin-top:12px">
+        <!-- opzionale -->
+        Se vuoi, puoi inserire qui una mappa (iframe) o un QR code.
+      </p>
+    </div>
+
+    <div class="footer">© <span id="y"></span> Software Engineering Research Lab</div>
+  </main>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
