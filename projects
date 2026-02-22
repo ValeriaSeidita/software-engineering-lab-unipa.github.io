@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects • Software Engineering Research Lab</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <strong>Software Engineering Research Lab</strong>
+        <span>Università di ... • Dipartimento di ...</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <p class="kicker">Projects</p>
+      <h1>Progetti</h1>
+      <p class="small">Aggiungi qui i progetti del laboratorio. Ogni voce può avere link a sito, repo, demo, paper.</p>
+    </div>
+
+    <h2 class="section-title">In corso</h2>
+    <section class="grid">
+      <div class="card">
+        <h3>Nome Progetto</h3>
+        <p class="small">2–4 righe di descrizione.</p>
+        <div class="badges">
+          <span class="badge">Topic</span><span class="badge">Topic</span>
+        </div>
+        <div class="btns">
+          <a class="btn" href="#">Sito</a>
+          <a class="btn" href="#">Repo</a>
+          <a class="btn" href="#">Paper</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Nome Progetto</h3>
+        <p class="small">2–4 righe di descrizione.</p>
+        <div class="badges">
+          <span class="badge">Topic</span><span class="badge">Topic</span>
+        </div>
+        <div class="btns">
+          <a class="btn" href="#">Sito</a>
+          <a class="btn" href="#">Repo</a>
+          <a class="btn" href="#">Paper</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Nome Progetto</h3>
+        <p class="small">2–4 righe di descrizione.</p>
+        <div class="badges">
+          <span class="badge">Topic</span><span class="badge">Topic</span>
+        </div>
+        <div class="btns">
+          <a class="btn" href="#">Sito</a>
+          <a class="btn" href="#">Repo</a>
+          <a class="btn" href="#">Paper</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">© <span id="y"></span> Software Engineering Research Lab</div>
+  </main>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
