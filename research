@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Research • Software Engineering Research Lab</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <strong>Software Engineering Research Lab</strong>
+        <span>Università di ... • Dipartimento di ...</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <p class="kicker">Research</p>
+      <h1>Linee di ricerca</h1>
+      <p><!-- SOSTITUISCI: introduzione generale --></p>
+      <hr class="sep"/>
+      <ul class="list">
+        <li>
+          <strong>Area 1 — Titolo</strong><br/>
+          <span class="small">Descrizione (4–8 righe) + eventuali riferimenti/link.</span>
+        </li>
+        <li>
+          <strong>Area 2 — Titolo</strong><br/>
+          <span class="small">Descrizione (4–8 righe) + eventuali riferimenti/link.</span>
+        </li>
+        <li>
+          <strong>Area 3 — Titolo</strong><br/>
+          <span class="small">Descrizione (4–8 righe) + eventuali riferimenti/link.</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">© <span id="y"></span> Software Engineering Research Lab</div>
+  </main>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
